@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Propaganda del odio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap@next/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>        
+        <script src="https://unpkg.com/popper.js"></script>
+        <script src="https://unpkg.com/bootstrap@next/dist/js/bootstrap.js"></script>
+
+        <script src="https://unpkg.com/vue"></script>
+        <script src="https://unpkg.com/requirejs@2.3.2/require.js"></script>
+    </head>
+    <body>
+
+        <h3 style='text-align: center'>Que ves en tus Redes sociales</h3>
+
+        <div id='header' class="row">
+            <div class="col-6"><img src='img/flags/es.png'/>Unionistas</div>
+            <div class="col-6"><img src='img/flags/cat.png'/>Independentistas</div>
+        </div>
+
+        <div id="app" class="container-fluid">
+            <div class="row" v-bind:data="date" v-for="(items, date) in orderedNews">
+                <div class="date col-12">{{date}}</div>
+
+                <div class="col-6" v-bind:class="sideKey" v-for="(side, sideKey) in items">
+
+                    <div class='row'>
+                        <!--{{sideKey}}-->
+                        <div class='col-lg-6' v-for="(item, itemIndex) in side">
+
+                            <div class="info">
+                                <div class='title' data-toggle="collapse" v-bind:data-target="'#' + date + '_' + sideKey + '_' + itemIndex">{{item.title}}</div>
+                                <div v-bind:id="date + '_' + sideKey + '_' + itemIndex" class="desc collapse">
+                                    <div>{{item.title}}</div>
+                                    <br>
+                                </div>
+                            </div>
+
+                            <!--IMG-->
+                            <a v-bind:href='item.url' target="_blank">
+                                <div class='col-sm-12 col-md-9 col-lg-12'>
+                                    <div class='img' v-bind:style="'background-image:url(' + item.img + ')'"></div>
+                                </div>  
+                            </a>
+
+                            <br>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id='footer'>
+            Colabora en el repositorio git
+            <a href='https://github.com/propaganda-del-odio/propaganda-del-odio.github.io'>
+                https://github.com/propaganda-del-odio/propaganda-del-odio.github.io
+            </a>
+        </div>
+
+        <script>
+
+requirejs.config({
+    paths: {
+        "vue": "https://raw.githubusercontent.com/edgardleal/require-vuejs/master/dist/require-vuejs.min.js"
+    }
+});
+
+var app = new Vue({
+    el: '#app',
+    data: {
+        news: {}
+    },
+    mounted: function () {
+        var self = this;
+
+        require(["data/Esp.js"], function (Esp) {
+            var data = self.dataLoad(Esp, "esp");
+            self.news = Object.assign({}, self.news, data);
+        });
+        require(["data/Cat.js"], function (Cat) {
+            var data = self.dataLoad(Cat, "cat");
+            self.news = Object.assign({}, self.news, data);
+        });
+    },
+    computed: {
+        orderedNews: function () {
+            var news = this.news;
+            var ordered = {};
+            Object.keys(news).reverse().forEach(function (key) {
+                ordered[key] = news[key];
+            });
+            return ordered;
+        }
+    },
+    methods: {
+        dataLoad: function (data, side) {
+            var self = this;
+
+            for (var i = 0; i < data.length; i++) {
+                var item = data[i];
+
+                if (!self.news[item.date]) {
+                    self.news[item.date] = {
+                        esp: [],
+                        cat: []
+                    };
+                }
+
+                self.news[item.date][side].push(item);
+            }
+        }
+    }
+});
+
+        </script>
+    </body>
+</html>

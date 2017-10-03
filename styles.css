@@ -1,0 +1,89 @@
+
+body{
+    background: gainsboro;
+}
+
+hr{
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.container-fluid{
+    max-width: 1366px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#header{
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+}
+#header img{
+    width: 30px;
+    margin: 5px;
+    vertical-align: bottom;
+}
+
+#footer{
+    text-align: center;
+    padding: 15px;
+    min-height: 80px;
+}
+
+.date{
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 5px black;
+    z-index: 1;
+    background: linear-gradient(#ececec, gainsboro);
+}
+
+.esp{
+    background: white;
+    background: linear-gradient(rgb(245,245,245), rgb(235,235,235));
+}
+.esp .title{
+    text-shadow: 1px 1px white;
+}
+.cat{
+    background: rgb(30,30,30);
+    background: linear-gradient(rgb(40,40,40), rgb(10,10,10));
+    color: gainsboro;    
+}
+.cat .title{
+    text-shadow: 1px 1px black;
+}
+
+.info{
+    text-align: justify;
+}
+.title{
+    font-size: 15px;
+    height: 48px;
+    cursor: pointer;
+
+    /*https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css*/
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;    
+}
+.desc > div{
+    padding: 3px 6px;
+    background: gainsboro;
+    color: black;
+    font-size: 14px;
+}
+
+.img{
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 70%;
+}
+.esp .img{
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.cat .img{
+    box-shadow: 0 0 5px black;
+}
