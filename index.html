@@ -41,7 +41,7 @@
                                 <div v-bind:id="date + '_' + sideKey + '_' + itemIndex" class="desc collapse">
                                     <div>
                                         {{item.title}}
-                                        <small>{{item.desc}}</small>
+                                        <small v-show="item.desc">{{item.desc}}</small>
                                     </div>                                    
                                     <br>
                                 </div>
