@@ -71,7 +71,15 @@ define(function () {
             img: "https://pbs.twimg.com/ext_tw_video_thumb/915123391908270080/pu/img/pujHadtAbEyMT0QA.jpg",
             url: "https://twitter.com/ajcastillam/status/915123869731770368",
             date: "2017-10-03"
+        },
+        //4-oct
+        {
+            title: "Los principales grupos de la Eurocámara atacan al Govern catalán por saltarse las leyes",
+            img: "https://ep01.epimg.net/politica/imagenes/2017/10/04/actualidad/1507135827_764000_1507136277_noticia_normal_recorte1.jpg",
+            url: "https://politica.elpais.com/politica/2017/10/04/actualidad/1507135827_764000.html",
+            date: "2017-10-04"
         }
+        
     ]
 
 });
