@@ -41,6 +41,12 @@ define(function () {
             date: "2017-10-01"
         },
         //2-oct
+        {            
+            title: "Piqué, insultado y abucheado en el entrenamiento de la selección",
+            img: "http://estaticos.sport.es/resources/jpg/6/3/1506967611536.jpg",
+            url: "http://www.sport.es/es/noticias/seleccion/pique-insultado-abucheado-entrenamiento-seleccion-6327364",
+            date: "2017-10-02"
+        },
         {
             title: "Presentador de Sky News corta a Dastis para decirle que \"Cataluña es más grande que 1 inquilino en 1 edificio\"",
             img: "https://pbs.twimg.com/ext_tw_video_thumb/914845026525597698/pu/img/fJdhGNgPEUklBHQv.jpg",
@@ -71,6 +77,13 @@ define(function () {
             img: "http://statics.ccma.cat/multimedia/jpg/4/9/1506970117394.jpg",
             url: "http://www.ccma.cat/324/la-fiscalia-diu-que-les-carregues-de-l1-o-no-van-afectar-en-absolut-la-convivencia/noticia/2812662/",
             date: "2017-10-03"
+        },
+        //4-oct
+        {
+            title: "Serbia acusa a la UE de \"doble rasero\" en las posturas hacia Cataluña y Kosovo",
+            img: "http://images.eldiario.es/politica/Macron-Rajoy-comprometido-unidad-Espana_EDIIMA20171002_0573_4.jpg",
+            url: "http://www.eldiario.es/politica/Serbia-UE-posturas-Cataluna-Kosovo_0_692931337.html",
+            date: "2017-10-04"
         }
     ];
 
