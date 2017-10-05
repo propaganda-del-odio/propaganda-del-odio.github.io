@@ -78,6 +78,10 @@ hr{
     color: black;
     font-size: 14px;
 }
+.desc > div small{
+    display: block;
+    border-top: 1px solid darkgrey;
+}
 
 .img{
     background-size: cover;
