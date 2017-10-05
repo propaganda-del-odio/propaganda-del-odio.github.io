@@ -80,6 +80,13 @@ define(function () {
             url: "https://www.dolcacatalunya.com/2017/10/derrota-los-golpistas-parlamento-europeo/",
             date: "2017-10-04"
         },
+        {
+            title: "Viva el Rey y muera el mal Gobierno!",
+            desc: "La proclama de los manresanos en el siglo XIX es hoy la de todos los dulces.",
+            img: "https://www.dolcacatalunya.com/wp-content/uploads/rey_felipe_cataluna2-300x168.jpg",
+            url: "https://www.dolcacatalunya.com/2017/10/visca-rei-i-mori-mal-govern/",
+            date: "2017-10-04"
+        },      
         //5-oct
         {
             title: "El Banco Sabadell se va a Alicante. Gracias, nacionalismo",
