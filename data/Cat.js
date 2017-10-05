@@ -43,7 +43,7 @@ define(function () {
         //2-oct
         {            
             title: "Piqué, insultado y abucheado en el entrenamiento de la selección",
-            desc: "Gritos de 'Piqué, cabrón, España es tu nación' en la Ciudad del Fútbol de Las Rozas."
+            desc: "Gritos de 'Piqué, cabrón, España es tu nación' en la Ciudad del Fútbol de Las Rozas. "
                 + "La Guardia Civil había retirado pancartas ofensivas contra el jugador pero no impidió el abucheo de los aficionados",
             img: "http://estaticos.sport.es/resources/jpg/6/3/1506967611536.jpg",
             url: "http://www.sport.es/es/noticias/seleccion/pique-insultado-abucheado-entrenamiento-seleccion-6327364",
@@ -86,6 +86,15 @@ define(function () {
             img: "http://images.eldiario.es/politica/Macron-Rajoy-comprometido-unidad-Espana_EDIIMA20171002_0573_4.jpg",
             url: "http://www.eldiario.es/politica/Serbia-UE-posturas-Cataluna-Kosovo_0_692931337.html",
             date: "2017-10-04"
+        },
+        //5-oct
+        {
+            title: "El Constitucional suspende el pleno del Parlamento que debe aplicar el resultado del 1-O",
+            desc: "La suspensión se produce a raíz de una petición hecha por el PSC en un recurso de amparo. "
+                + "\"Suspender llenos que no están ni convocados es la nueva oferta de diálogo\", critica Forcadell",
+            img: "https://dades.naciodigital.cat/redaccio/arxius/imatges/201707/1200_1501081333356399.jpg",
+            url: "http://www.naciodigital.cat/noticia/139878/tribunal/constitucional/suspen/ple/parlament/aplicar/resultat/1-o",
+            date: "2017-10-05"
         }
     ];
 
