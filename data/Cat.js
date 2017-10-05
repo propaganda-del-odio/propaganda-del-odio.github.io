@@ -87,6 +87,13 @@ define(function () {
             url: "http://www.eldiario.es/politica/Serbia-UE-posturas-Cataluna-Kosovo_0_692931337.html",
             date: "2017-10-04"
         },
+        {
+            title: "Viva el Rey y muera el mal Gobierno!",
+            desc: "La proclama de los manresanos en el siglo XIX es hoy la de todos los dulces.",
+            img: "https://www.dolcacatalunya.com/wp-content/uploads/rey_felipe_cataluna2-300x168.jpg",
+            url: "https://www.dolcacatalunya.com/2017/10/visca-rei-i-mori-mal-govern/",
+            date: "2017-10-04"
+        },        
         //5-oct
         {
             title: "El Constitucional suspende el pleno del Parlamento que debe aplicar el resultado del 1-O",
