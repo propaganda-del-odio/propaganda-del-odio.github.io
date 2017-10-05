@@ -41,14 +41,6 @@ define(function () {
             date: "2017-10-01"
         },
         //2-oct
-        {            
-            title: "Piqué, insultado y abucheado en el entrenamiento de la selección",
-            desc: "Gritos de 'Piqué, cabrón, España es tu nación' en la Ciudad del Fútbol de Las Rozas. "
-                + "La Guardia Civil había retirado pancartas ofensivas contra el jugador pero no impidió el abucheo de los aficionados",
-            img: "http://estaticos.sport.es/resources/jpg/6/3/1506967611536.jpg",
-            url: "http://www.sport.es/es/noticias/seleccion/pique-insultado-abucheado-entrenamiento-seleccion-6327364",
-            date: "2017-10-02"
-        },
         {
             title: "Presentador de Sky News corta a Dastis para decirle que \"Cataluña es más grande que 1 inquilino en 1 edificio\"",
             img: "https://pbs.twimg.com/ext_tw_video_thumb/914845026525597698/pu/img/fJdhGNgPEUklBHQv.jpg",
@@ -74,6 +66,14 @@ define(function () {
             date: "2017-10-02"
         },
         //3-oct
+        {            
+            title: "Piqué, insultado y abucheado en el entrenamiento de la selección",
+            desc: "Gritos de 'Piqué, cabrón, España es tu nación' en la Ciudad del Fútbol de Las Rozas. "
+                + "La Guardia Civil había retirado pancartas ofensivas contra el jugador pero no impidió el abucheo de los aficionados",
+            img: "http://estaticos.sport.es/resources/jpg/6/3/1506967611536.jpg",
+            url: "http://www.sport.es/es/noticias/seleccion/pique-insultado-abucheado-entrenamiento-seleccion-6327364",
+            date: "2017-10-02"
+        },
         {
             title: "La fiscalía dice que las cargas del 1-O \"no afectaron en absoluto la convivencia\"",
             img: "http://statics.ccma.cat/multimedia/jpg/4/9/1506970117394.jpg",
