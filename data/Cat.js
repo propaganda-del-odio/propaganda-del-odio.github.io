@@ -72,7 +72,7 @@ define(function () {
                 + "La Guardia Civil había retirado pancartas ofensivas contra el jugador pero no impidió el abucheo de los aficionados",
             img: "http://estaticos.sport.es/resources/jpg/6/3/1506967611536.jpg",
             url: "http://www.sport.es/es/noticias/seleccion/pique-insultado-abucheado-entrenamiento-seleccion-6327364",
-            date: "2017-10-02"
+            date: "2017-10-03"
         },
         {
             title: "La fiscalía dice que las cargas del 1-O \"no afectaron en absoluto la convivencia\"",
