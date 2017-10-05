@@ -39,8 +39,10 @@
                             <div class="info">
                                 <div class='title' data-toggle="collapse" v-bind:data-target="'#' + date + '_' + sideKey + '_' + itemIndex">{{item.title}}</div>
                                 <div v-bind:id="date + '_' + sideKey + '_' + itemIndex" class="desc collapse">
-                                    <div>{{item.title}}</div>
-                                    <div>{{item.desc}}</div>
+                                    <div>
+                                        {{item.title}}
+                                        <small>{{item.desc}}</small>
+                                    </div>                                    
                                     <br>
                                 </div>
                             </div>
