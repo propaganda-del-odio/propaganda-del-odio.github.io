@@ -88,12 +88,12 @@ define(function () {
             date: "2017-10-04"
         },
         {
-            title: "Viva el Rey y muera el mal Gobierno!",
-            desc: "La proclama de los manresanos en el siglo XIX es hoy la de todos los dulces.",
-            img: "https://www.dolcacatalunya.com/wp-content/uploads/rey_felipe_cataluna2-300x168.jpg",
-            url: "https://www.dolcacatalunya.com/2017/10/visca-rei-i-mori-mal-govern/",
+            title: "El rey de España derriba el último puente con Cataluña, con una tensa intervención televisiva",
+            desc: "Felipe VI no ha hecho ni una sola alusión a los incidentes del domingo ni a los heridos en la represión de la policía española",
+            img: "https://imatges.vilaweb.cat/nacional/wp-content/uploads/2017/03/20170308190714-e1498749877911-604x270.jpg",
+            url: "https://www.vilaweb.cat/noticies/felipe-vi-acusa-la-generalitat-de-deslleieltat-i-de-trencar-lordre-constitucional/",
             date: "2017-10-04"
-        },        
+        },
         //5-oct
         {
             title: "El Constitucional suspende el pleno del Parlamento que debe aplicar el resultado del 1-O",
