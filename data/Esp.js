@@ -74,12 +74,20 @@ define(function () {
         },
         //4-oct
         {
-            title: "Los principales grupos de la Eurocámara atacan al Govern catalán por saltarse las leyes",
-            img: "https://ep01.epimg.net/politica/imagenes/2017/10/04/actualidad/1507135827_764000_1507136277_noticia_normal_recorte1.jpg",
-            url: "https://politica.elpais.com/politica/2017/10/04/actualidad/1507135827_764000.html",
+            title: "Derrota de los golpistas en el Parlamento Europeo",
+            desc: "La Eurocámara lo deja muy claro: el prusés es una agresión contra el Estado de Derecho.",
+            img: "https://www.dolcacatalunya.com/wp-content/uploads/espana-cataluna-europa.jpg",
+            url: "https://www.dolcacatalunya.com/2017/10/derrota-los-golpistas-parlamento-europeo/",
             date: "2017-10-04"
-        }
-        
+        },
+        //5-oct
+        {
+            title: "El Banco Sabadell se va a Alicante. Gracias, nacionalismo",
+            desc: "Espanyansroba… las empresas que ahuyenta la Generalitat.",
+            img: "https://www.dolcacatalunya.com/wp-content/uploads/banco-sabadell-300x171.jpg",
+            url: "https://www.dolcacatalunya.com/2017/10/banco-sabadell-se-va-alicante-gracies-nacionalisme/",
+            date: "2017-10-05"
+        }        
     ]
 
 });
