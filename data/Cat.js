@@ -28,12 +28,12 @@ define(function () {
             url: "https://www.youtube.com/watch?v=4Kn8xstCnyI",
             date: "2017-10-01"
         },
-        {
-            title: "Las imágenes falsas y los bulos sobre el referéndum que circulan por las redes sociales",
-            img: "https://pbs.twimg.com/media/DLDWRahXcAEFlx_.jpg",
-            url: "http://www.20minutos.es/noticia/3149677/0/imagenes-falsas-bulos-referendum-cataluna-1o/",
-            date: "2017-10-01"
-        },
+        //{
+        //    title: "Las imágenes falsas y los bulos sobre el referéndum que circulan por las redes sociales",
+        //    img: "https://pbs.twimg.com/media/DLDWRahXcAEFlx_.jpg",
+        //    url: "http://www.20minutos.es/noticia/3149677/0/imagenes-falsas-bulos-referendum-cataluna-1o/",
+        //    date: "2017-10-01"
+        //},
         {
             title: "Llevar España ante el TEDH (Tribunal Europeo de los Derechos Humanos)",
             img: "https://assets.change.org/photos/7/vb/bi/uFvbbiYKvwNrDgy-800x450-noPad.jpg?1487282491",
